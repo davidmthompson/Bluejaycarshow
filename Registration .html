@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrashon</title>
+    <title>Register</title>
     <link rel="icon" type="image/png" href="BlueJay.png">
     <link rel="stylesheet" type="text/css" href="indext.css"/>
     <link rel="stylesheet" type="text/css" href="menu.css"/>
@@ -32,7 +32,15 @@
       }
       /* Style the submit button with a specific background color etc */
       input[type=submit] {
-        background-color: #04AA6D;
+        background-color: #1233f3;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      .home {
+        background-color: #1233f3;
         color: white;
         padding: 12px 20px;
         border: none;
@@ -42,7 +50,7 @@
       
       /* When moving the mouse over the submit button, add a darker green color */
       input[type=submit]:hover {
-        background-color: #45a049;
+        background-color: #1233f3;
       }
       
       /* Add a background color and some padding around the form */
@@ -114,7 +122,7 @@
         }
         /* Style the submit button with a specific background color etc */
         input[type=submit] {
-          background-color: #04AA6D;
+          background-color: #1233f3;
           color: white;
           padding: 12px 20px;
           border: none;
@@ -124,7 +132,7 @@
         
         /* When moving the mouse over the submit button, add a darker green color */
         input[type=submit]:hover {
-          background-color: #45a049;
+          background-color: #1233f3;
         }
         
         /* Add a background color and some padding around the form */
@@ -138,18 +146,18 @@
 <body bgcolor="#7796c6">
 
 <div class="container">
-  <form action="https://formsubmit.co/traehawks@hotmail.com" method="POST">
-    <input type="hidden" name="_next" value="https://bluejayathletics.org/event-tickets">
+  <form action="https://formsubmit.co/bluejaycarshow@outlook.com" method="POST">
+    <input type="hidden" name="_ne xt" value="https://bluejayathletics.org/event-tickets">
     <input type="hidden" name="_captcha" value="false">
     <label for="fname">Full Name:</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
 
     <label for="email">Car's Make:</label>
-    <input type="text" id="Make" name="make" placeholder="type Car's Make here"required>
-    <label for="email">Car's Modle:</label>
-    <input type="text" id="modle" name="modle" placeholder="type Car's Modle here"required>
+    <input type="text" id="Make" name="make" placeholder="type The Make of the car  here"required>
+    <label for="email">Car's Model:</label>
+    <input type="text" id="model" name="model" placeholder="type The Modle of the car  here"required>
     <label for="email">Car's Year:</label>
-    <input type="text" id="year" name="year" placeholder="type Car's Year here"required>
+    <input type="text" id="year" name="year" placeholder="type The Year of the car  here"required>
 
 
     </select>
@@ -162,7 +170,7 @@
     
   </form>
   <br>
-  <a href="index.html"><button height="30">Home</button></a>
+  <a href="indext.html"><button class="home" height="30">Home</button></a>
 </div>
 
 </body>
