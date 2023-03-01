@@ -8,13 +8,9 @@
 		<style>
 			body {margin:9pt}
 		
-a {text-decoration:italic;color:black}
+
 		
-p {font-family:impact;font-size:15pt}
-		
-.table {font-family:impact;font-size:14pt;border-color:blue;border-style:double}
-		
-th {background-color:#66CbFF;text-align:left}
+
 		
 caption {font-size:8pt;font-style:italic}
 
@@ -103,6 +99,18 @@ li {font-family:impact;font-size:13.5pt}
 	.cssbuttons-io-button:active .icon {
 	 transform: scale(0.95);
 	}
+	.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
 		</style>
 	</head>
 	<body bgcolor="#7796c6">
@@ -123,135 +131,53 @@ li {font-family:impact;font-size:13.5pt}
 						<br>
 						<font size="5">April 1 2023  </font>
 			</h1>
-		
-				
-        	
 			<hr></td>
-			
-
 			</tr>
-
-		</table>
-	
-	
-				<p align="center">
-		
-				</p>
-				
-				<!--<img src="carshow.png" width="35%" height="35%" align="right"/>-->
-				
-				
-		
-				
-	
-				<p>
-					Here's what will be be shown at the Blue Jay Car Show
-				</p>
-				
-				<ul>
-					<li>
-						People showing off and displaying their cars
-					</li>
-					
-					<li>
-						People taking others' blood pressure
-					</li>
-					
-					<li>
-						Concessions available
-					</li>
-				</ul>
-				
-				<p>
-					 11:00 AM - 3:00 PM. Check in your car at 9:00 AM - 11:00 AM. 
-				</p>
-				
-				<p>
-					Entry fee at the gate is $20.00.<br />Entry fee online is $16.00.
-				</p>
-				
-				<p>
-					Here's all the participating groups in the car show:
-					<ul>
-						<li>
-							FBLA
-						</li>
-						<ul style="list-style-type:circle">
-							<li>
-								Taxes - If you bring a W2, they will help fill it out for you and return it. What you need:
-								<ul style="list-style-type:square">
-									<li>
-										Tax Info
-									</li>
-									<li>
-										Bank Info
-									</li>
-									<li>
-										Photo ID
-									</li>
-								</ul>
-							</li>
-						</ul>
-						<li>
-							FFA
-						</li>
-						<ul style="list-style-type:circle">
-							<li>
-								Kiddie Tractor Pull.
-							</li>
-						</ul>
-						<li>
-							FCCLA
-						</li>
-						<ul style="list-style-type:circle">
-							<li>
-								Concessions. They will provide the following foods:
-							</li>
-							<ul style="list-style-type:square">
-								<li>
-									Pulled Pork
-								</li>
-								<li>
-									Chips
-								</li>
-								<li>
-									Cookies
-								</li>
-								<li>
-									Soda
-								</li>
-							</ul>
-						</ul>
-						<li>
-							HOSA
-						</li>
-						<ul style="list-style-type:circle">
-							<li>
-								If you want, you can request free blood pressure checks from them.
-							</li>
-						</ul>
-						<li>
-							TSA
-						</li>
-						<ul style="list-style-type:circle">
-							<li>
-								They will have a CO2 drag race, along with some drones and robots.
-							</li>
-						</ul>
-						<li>
-							Skills USA
-						</li>
-						<ul style="list-style-type:circle">
-							<li>
-								The ones responsible for running the car show and issuing rewards to the participants.
-							</li>
-						</ul>
-					</ul>
-				</p>
-				<br />
-				<p>
-					
-				</p>	
+	</table>
+	<div class="row">
+		<div class="column">
+			<h1>Price </h1>
+			<h2>Entry fee at the gate is $20.00.<br />Entry fee online is $16.00 <a href="Register.html">Register now.</a>
+			<br>
+			Spectaters cost are pay wat you want.
+			</h2>
+			
+			<h2>Here's what will be be shown at the Blue Jay Car Show <br><font size="4">-People showing off and displaying their cars
+				<br>
+				-People taking others' blood pressure
+				<br>
+				-Concessions available</font></h2>
+				<br>
+				<br>
+				<img src="carnologo.png">
 				<h1>Special thanks to Walsh Custom</h1>
-	</body>
-</html>
+		</div>
+
+		<div class="column">
+			<h2><font size="6">Here's all the participating groups in the car show:</font></h2>
+			<table border="3" bgcolor="#7796c6" >
+				<tr>
+					<td> 
+					  <h2> FBLA</h2>
+					  <p style="font-size: 20px;">Taxes - If you bring a W2, they will help fill it out for you and return it. You will need your tax info, bank info, and you photo ID</p>
+				  </td>
+					<td><h2> FFA</h2> <p>will be doing a Kiddie Tractor Pull. Bring you kid to see how fair thay can pull. </p>  </td>
+				</tr>
+				<tr>
+					<td><h2> FCCLA(Concessions)</h2> <p>They will provide the following foods: Pulled Pork, Chips, Cookies, and  Soda </p> </td>
+					<td><h2>HOSA</h2><p>If you want, you can request free blood pressure checks from them.</p>  </td>
+				</tr>
+				<tr>
+					<td><h2> TSA</h2><p> They will have a CO2 drag race, along with some drones and robots.</p>  </td>
+					<td> <h2> Skills USA</h2><p> The ones responsible for running the car show and issuing rewards to the participants.</p> </td>
+				</tr>
+			</table>
+			
+			
+			
+		
+		</div>
+	  </div>
+	
+				</body>
+				</html>
